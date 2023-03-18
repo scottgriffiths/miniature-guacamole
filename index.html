@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <p>Snapshot</p>
+        <input id="snapshot_input" type="file" accept="csv" placeholder="Snapshot Data">
+    </div>
+
+    <div>
+        <p>Delta</p>
+        <input id="delta_input" type="file" accept="csv" placeholder="Delta Data">
+    </div>
+
+
+    <table id="stocks_table">
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Change</th>
+            <th>% Change</th>
+            <th>Mtk Cap</th>
+        </tr>
+    </table>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

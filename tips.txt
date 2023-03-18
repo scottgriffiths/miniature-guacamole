@@ -1,0 +1,4 @@
+make sure you have the vs code javascript extension
+make sure you have the vs code html 5 extension
+remind them you have only worked with react before so was a struggle working it out natively
+mention you didnt even know what a finance tracker was and the jargon associated with it
